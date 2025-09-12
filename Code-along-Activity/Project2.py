@@ -7,9 +7,9 @@ print()
 print(f"Subtotal: ${price:.2f}")
 print()
 tax_rate = float(input("What is the sales tax rate? "))
-total = tax_rate * price / 100
-print(f"Sales Tax: ${total:.2f}")
-total_price = price + total
+subtotal = tax_rate * price / 100
+print(f"Sales Tax: ${subtotal:.2f}")
+total_price = price + subtotal
 print(f"Total: ${total_price:.2f}")
 print()
 payment = float(input("What is the payment amount? "))
