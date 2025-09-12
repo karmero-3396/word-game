@@ -1,5 +1,5 @@
 # Using two lines
-people_string = input("How many people? are in the room? ")
+people_string = input("How many people are in the room? ")
 people_number = int(people_string)
 
 # Using one line

@@ -1,0 +1,1 @@
+print("On your next birthday, you will be " + str(int(input("How old are you? ")) + 1))
